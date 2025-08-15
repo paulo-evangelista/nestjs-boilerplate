@@ -1,0 +1,69 @@
+### Compiled output / dependencies
+/dist
+/node_modules
+/build
+
+### Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+### Coverage / test output
+/coverage
+/.nyc_output
+TEST*.xml
+
+### IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### OS generated files
+.DS_Store
+Thumbs.db
+
+### Environment files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+### Temp files
+.temp
+.tmp
+
+### Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+### Other common artifacts
+*.class
+*.py[cod]
+*.jar
+target/
+*.app
+*.exe
+*.war
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
